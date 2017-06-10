@@ -1,0 +1,20 @@
+{
+  "name": "sse.example",
+  "version": "1.0.0",
+  "description": "a tiny example of client-specific server-side events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sse",
+    "node"
+  ],
+  "author": "charlie roberts",
+  "license": "MIT",
+  "dependencies": {
+    "connect-static-file": "^1.2.0",
+    "express": "^4.15.3",
+    "sse-pusher": "^1.1.1"
+  }
+}
